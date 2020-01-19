@@ -38,4 +38,4 @@ s SOLUTIONS 1
 
 ## Other useful links
 
-My JavaScript implementation of the [Lights Out game](quiath.bitbucket.io/touch).
+My JavaScript implementation of the [Lights Out game](http://quiath.bitbucket.io/touch).

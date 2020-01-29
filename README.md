@@ -36,6 +36,20 @@ s SOLUTIONS 1
 
 ```
 
+## Z3 as the alternative
+
+Z3 has a SMT solver which can also be used to solve SAT. 
+The advantage over picosat is that first of all there is
+no intermediate step since Z3 solver has Python bindings. 
+Moreover you can use typical boolean operators (Or, And, Xor, Not)
+when specifying the constraints instead of CNF. 
+
+## Usage Z3
+
+```
+python3 solvelights.py 9
+```
+
 ## Other useful links
 
 My JavaScript implementation of the [Lights Out game](http://quiath.bitbucket.io/touch).

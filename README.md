@@ -50,6 +50,22 @@ when specifying the constraints instead of CNF.
 python3 solvelights.py 9
 ```
 
+## Another alternative - Sympy
+
+Sympy can be used for symbolic computation and also
+satisfability. Boolean operators can be used similar to Z3.
+An advantage over Z3 is that satisfiable() function returns
+a generator of models so getting all solutions is easier.
+Unfortunately Sympy logic solver seems to be much slower than Z3.
+At least you can use Sympy `to_cnf()` to transform a logic
+formula to CNF and use it as input by a standalone solver.
+
+## Usage Sympy
+
+```
+python3 sympylights.py 9
+```
+
 ## Other useful links
 
 My JavaScript implementation of the [Lights Out game](http://quiath.bitbucket.io/touch).
